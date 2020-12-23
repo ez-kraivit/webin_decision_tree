@@ -1,6 +1,6 @@
 {
   "name": "webin_decision_tree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nodejs implementation of decision tree using Entropy algorithm",
   "main": "./lib/decision_tree",
   "engines": {
@@ -39,9 +39,9 @@
     "wordcut": "*"
   },
   "devDependencies": {
-    "mocha": "*",
     "body": "*",
+    "fs": "*",
     "glob": "^5.0.14",
-    "fs": "*"
+    "mocha": "*"
   }
 }

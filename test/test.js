@@ -2,10 +2,26 @@
 const assert = require('assert');
 const decision_tree = require('lib/decision_tree');
 describe('Decision Tree By Kraivit', () => {
-    describe('DEMO', () => {    
-        it('version 0.0.3', function () {
-            const text = "กลัว กลัว ทำไมละนั้น กลัวจังเลย"
-            assert(decision_tree.wordcut(text))
-        });
+    describe('#DEMO', () => {
+        context('ทดสอบการส่งพารามิเตอร์ในตัวแปร ต่าง ๆ', function () {
+            it('String', function () {
+                assert(decision_tree.wordcut("กลัว กลัว ทำไมละนั้น กลัวจังเลย"))
+            });
+            it('Array', function () {
+                assert(decision_tree.wordcut(["กลัว กลัว ทำไมละนั้น กลัวจังเลย", "สวัสดีครับ"]))
+            });
+            it('NuN', function () {
+                assert(decision_tree.wordcut(NaN))
+            });
+            it('Null', function () {
+                assert(decision_tree.wordcut(null))
+            });
+            it('Integer', function () {
+                assert(decision_tree.wordcut(Number(123)))
+            });
+            it('Object', function () {
+                assert(decision_tree.wordcut([{"คำเมือง":"อะไรนะ"}]))
+            });
+        })
     })
 })
