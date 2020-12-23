@@ -1,0 +1,13 @@
+{
+	"features": ["กล้าหาญ", "อดทน","รักอิสระ"],
+	"data": [
+		{"กล้าหาญ":true, "อดทน":true, "รักอิสระ":true, "classification":{"description":"กล้าหาญ อดทน รักอิสระ"}},
+		{"กล้าหาญ":false, "อดทน":true, "รักอิสระ":true, "classification":{"description":"อดทน รักอิสระ"}},
+		{"กล้าหาญ":true, "อดทน":false, "รักอิสระ":true, "classification":{"description":"กล้าหาญ รักอิสระ"}},
+		{"กล้าหาญ":false, "อดทน":false, "รักอิสระ":true, "classification":{"description":"รักอิสระ"}},
+		{"กล้าหาญ":true, "อดทน":true, "รักอิสระ":false, "classification":{"description":"กล้าหาญ อดทน"}},
+		{"กล้าหาญ":false, "อดทน":true, "รักอิสระ":false, "classification":{"description":"อดทน"}},
+		{"กล้าหาญ":true, "อดทน":false, "รักอิสระ":false, "classification":{"description":"กล้าหาญ"}},
+		{"กล้าหาญ":false, "อดทน":false, "รักอิสระ":false, "classification":{"description":"none"}}
+	]
+}

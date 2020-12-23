@@ -5,8 +5,7 @@ describe('Decision Tree By Kraivit', () => {
     describe('DEMO', () => {    
         it('version 0.0.1', function () {
             const text = "กลัว กลัว ทำไมละนั้น กลัวจังเลย"
-            console.log(decision_tree.wordcut(text)
-            )
+            assert(decision_tree.wordcut(text))
         });
     })
 })

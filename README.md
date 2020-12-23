@@ -1,7 +1,7 @@
 Decision Tree for NodeJS
 ========================
 
-This module contains the NodeJS Implementation of Decision Tree using [Entropy Algorithm](https://th.wikipedia.org/wiki/เอนโทรปี)
+This module contains the NodeJS Implementation of Decision Tree using [Entropy Algorithm](https://en.wikipedia.org/wiki/Entropy)
 
 # Table Of Contents
 * [`Installation`](#installation)
@@ -26,3 +26,9 @@ This module contains the NodeJS Implementation of Decision Tree using [Entropy A
 * Prepare data set:
 
 	    wait
+
+* Wordcut Thailand[ขอขอบคุณ](https://github.com/veer66/wordcut):
+
+        const text = "กลัว ทำไมละนั้น ส้ส ควย"
+		decision_tree.wordcut(text) //ตัดคำไม่สุขภาพออก
+
