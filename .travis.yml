@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "15"
+  - "14"
+  - "13"
+  - "12"
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+  - "7"
+  - "6"
+script: "NODE_PATH=. ./node_modules/.bin/mocha -R spec test/*"
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: npm
+  email: "kraivit.m@ku.th"
+  api_key: "L-72OD438P4SCHuyz_wk6g"
+notifications:
+  email: "kraivit.m@ku.th"
