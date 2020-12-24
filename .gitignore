@@ -7,6 +7,9 @@ lib-cov
 *.pid
 *.gz
 
+data_set.json
+training_data.json
+
 pids
 tester
 documents
