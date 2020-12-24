@@ -1,4 +1,6 @@
-Decision Tree for NodeJS by Kraivit Mongkhonsakunrit [![Build Status](https://travis-ci.com/ez-kraivit/webin_decision_tree.svg?branch=main)](https://travis-ci.com/ez-kraivit/webin_decision_tree)
+Decision Tree for NodeJS by Kraivit Mongkhonsakunrit [![Build Status](https://travis-ci.com/ez-kraivit/webin_decision_tree.svg?branch=main)](https://travis-ci.com/ez-kraivit/webin_decision_tree) <a href="https://www.npmjs.org/package/webin_decision_tree">
+    <img src="https://img.shields.io/npm/dm/strapi.svg" alt="Monthly download on NPM" />
+  </a>
 ========================
 
 This module contains the NodeJS Implementation of Decision Tree using [Entropy Algorithm](https://en.wikipedia.org/wiki/Entropy)
