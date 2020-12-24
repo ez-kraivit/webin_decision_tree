@@ -1,10 +1,12 @@
 language: node_js
 os:
   - osx
+  - linux
+  - windows
 node_js:
+  - "14"
   - "13"
   - "12"
-  - "11"
 script: "NODE_PATH=. ./node_modules/.bin/mocha -R spec test/*"
 cache:
   directories:
@@ -14,4 +16,3 @@ deploy:
   email: "kraivit.m@ku.th"
   api_key: "L-72OD438P4SCHuyz_wk6g"
 notifications:
-  email: "kraivit.m@ku.th"
