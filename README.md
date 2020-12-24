@@ -1,6 +1,4 @@
-Decision Tree for NodeJS by Kraivit Mongkhonsakunrit [![Build Status](https://travis-ci.com/ez-kraivit/webin_decision_tree.svg?branch=main)](https://travis-ci.com/ez-kraivit/webin_decision_tree) <a href="https://www.npmjs.org/package/webin_decision_tree">
-    <img src="https://img.shields.io/npm/dm/strapi.svg" alt="Monthly download on NPM" />
-  </a>
+Decision Tree for NodeJS by Kraivit Mongkhonsakunrit [![Build Status](https://travis-ci.com/ez-kraivit/webin_decision_tree.svg?branch=main)](https://travis-ci.com/ez-kraivit/webin_decision_tree) 
 ========================
 
 This module contains the NodeJS Implementation of Decision Tree using [Entropy Algorithm](https://en.wikipedia.org/wiki/Entropy)
@@ -53,5 +51,5 @@ This module contains the NodeJS Implementation of Decision Tree using [Entropy A
         const text = "กลัว ทำไมละนั้น ส้ส ควย"
 		decision_tree.wordcut(text) //ตัดคำไม่สุขภาพออก
 
-รออัพเดท Path ตอนนี้ยังเป็น Demo อยู่ในระหว่างการพัฒนาระบบ รองรับการทำ Dynamic Function , Muti Class , Muti Sub Node Decision Tree
+รออัพเดท Path ตอนนี้ยังเป็น Demo อยู่ในระหว่างการพัฒนาระบบ รองรับการทำ Dynamic Function , Muti Class , Muti Sub Node Decision Tree ขอบคุณครับ
 
